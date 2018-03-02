@@ -14,7 +14,7 @@ from django.core.files.base import ContentFile
 from athumb.exceptions import UploadedImageIsUnreadableError
 from pial.engines.pil_engine import PILEngine
 
-from validators import ImageUploadExtensionValidator
+from .validators import ImageUploadExtensionValidator
 
 try:
     #noinspection PyUnresolvedReferences
