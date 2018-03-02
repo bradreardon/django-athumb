@@ -4,6 +4,8 @@ workers. These should eventually becom unecessary as the supporting libraries
 continue to improve.
 """
 import os
+
+import errno
 import eventlet
 from django.conf import settings
 from django.core.files import locks
